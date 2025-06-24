@@ -1,9 +1,15 @@
 package com.dbms.mysql_gradle_pro1;
 
 import java.sql.*;
+import java.util.List;
 
 public class App2 {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+
+		List<Employee> employeeList = DatabaseConnection.getEmployee();
+
+		
+
 		// insertion();
 
 		// read the data
